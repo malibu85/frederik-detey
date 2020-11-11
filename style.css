@@ -1,0 +1,66 @@
+body {
+	background-color: #F27D72;
+}
+h1 {
+	color: #F2D680;
+	margin-bottom: 0em;
+}
+#geocities {
+	display:block;
+	background-color: #565A73;
+	max-width: 56em;
+	margin: 4em auto 0em auto;
+	padding: 8em 2em 2em 2em;
+	color:white;
+}
+#animals{
+	padding: 2em;
+	background-image: url("images/grass.jpg");
+	background-size: cover;
+	background-position: bottom;
+	background-position: center;
+	margin-bottom: 4em;
+	max-width: 56em;
+	margin: 4em auto 4em auto;
+}
+#animals h2 {
+	color: white;
+	text-shadow: black 0.1em 0.1em;
+}
+#animals p {
+	background-color: #73A64E;
+	padding: 1em;
+}
+ul {
+	display: inline;
+	list-style: none;
+}
+li {
+	display: inline;
+	margin-right: 2em;
+}
+a:link, a:visited {
+	color: black;
+	display: inline-block;
+	background-color: #F2BB77;
+	padding: 0.5em;
+	border-radius: 3px;
+	text-decoration: none;
+}
+a:hover {
+	background-color: #F2D680;
+}
+#welcome {
+	position: absolute;
+	top: 1em;
+}
+#waffle {
+	position: absolute;
+	bottom: 11em;
+	right: -3.5em;
+	width: 30%;
+	height: 35%;
+}
+#geocities p {
+	margin-top: 0.5em;
+}
