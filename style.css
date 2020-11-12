@@ -68,7 +68,11 @@ a:hover {
 	margin-top: 0.5em;
 	margin-bottom: 2em;
 }
-@media only screen and (device-width : 375px) and (device-height : 667px){
+@media only screen 
+	and (device-width : 375px) 
+	and (device-height : 667px)
+	and (-webkit-device-pixel-ratio : 2){
+	
 	body {
 		font-size: 2em;
 	}
