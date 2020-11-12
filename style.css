@@ -72,6 +72,10 @@ a:hover {
 	body {
 		font-size: 3em;
 	}
+	#welcome {
+		position: relative;
+		width: 80%;
+	}
 	h1 {
 		font-size: 5em;
 		}
