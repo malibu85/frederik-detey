@@ -68,10 +68,8 @@ a:hover {
 	margin-top: 0.5em;
 	margin-bottom: 2em;
 }
-@media only screen 
-	and (device-width : 375px) 
-	and (device-height : 667px)
-	and (-webkit-device-pixel-ratio : 2){
+
+@media only screen and (max-device-width : 667px) and (-webkit-device-pixel-ratio : 2) {
 	body {
 		font-size: 2em;
 	}
@@ -83,7 +81,6 @@ a:hover {
 	}
 	h2 {
 		font-size: 2.5em;
-	}
 	}
 	#welcome {
 		margin-left: -0.5em;
