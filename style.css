@@ -68,7 +68,7 @@ a:hover {
 	margin-top: 0.5em;
 	margin-bottom: 2em;
 }
-@media (max-width: 750px) and (orientation: portrait){
+@media (max-device-width: 750px) and (orientation: portrait){
 	body {
 		font-size: 2em;
 	}
