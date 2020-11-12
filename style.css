@@ -81,7 +81,6 @@ a:hover {
 	#welcome {
 		margin-left: -0.5em;
 		top: -1.5em;
-		width: 90%;
 	}
 	#waffle{
 		display: none;
@@ -91,6 +90,6 @@ a:hover {
 		margin-bottom: 1em;
 	}
 	li a{
-		width: 20em;
+		width: 95%;
 	}
 }
