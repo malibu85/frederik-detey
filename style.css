@@ -68,19 +68,19 @@ a:hover {
 	margin-top: 0.5em;
 	margin-bottom: 2em;
 }
-@media (orientation: portrait){
+@media (max-width: 750px) and (orientation: portrait){
 	body {
-		font-size: 3em;
+		font-size: 2em;
 	}
-	#welcome {
-		position: relative;
-		width: 80%;
+	#geocities {
+		padding: 5em 0.5em 1em 0.5em;
 	}
 	h1 {
-		font-size: 4em;
-		}
-	h2 {
-		font-size: 3.5em;
+		font-size: 1.5em;
+	}
+	#welcome {
+		margin-left: -0.5em;
+		top: -1.5em;
 	}
 	#waffle{
 		display: none;
