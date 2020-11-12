@@ -72,19 +72,23 @@ a:hover {
 	and (device-width : 375px) 
 	and (device-height : 667px)
 	and (-webkit-device-pixel-ratio : 2){
-	
 	body {
 		font-size: 2em;
 	}
 	#geocities {
-		padding: 5em 0.5em 1em 0.5em;
+		padding: 5em 2em 1em 2em;
 	}
 	h1 {
-		font-size: 1.5em;
+		font-size: 4em;
+	}
+	h2 {
+		font-size: 3em;
+	}
 	}
 	#welcome {
 		margin-left: -0.5em;
-		top: -1.5em;
+		top: -3em;
+		width: 90%;
 	}
 	#waffle{
 		display: none;
